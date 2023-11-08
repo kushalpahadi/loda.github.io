@@ -1,0 +1,28 @@
+.dropdown__contents {
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  transform: translateY(-50%);
+  height: 0px;
+  overflow-y: hidden;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.dropdown__content {
+  list-style: none;
+}
+
+.dropdown__links {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 600;
+
+  &:hover {
+    color: black;
+  }
+}

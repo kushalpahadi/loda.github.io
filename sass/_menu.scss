@@ -1,0 +1,52 @@
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgb(11, 84, 147);
+  display: flex;
+  z-index: 500;
+  overflow-y: hidden;
+  height: 0px;
+}
+
+//ul
+.menu__lists {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+//li
+
+.menu__list {
+  list-style: none;
+}
+
+.menu__links {
+  color: white;
+  text-decoration: none;
+  font-size: 5rem;
+  font-weight: 800;
+
+  &:hover {
+    color: rgb(40, 211, 83);
+  }
+}
+
+.menu__list--active {
+  color: rgb(221, 163, 18);
+}
+.btn--close {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-size: 3.8rem;
+  cursor: pointer;
+}
+
+.menu__logo {
+  height: 130px;
+}
